@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Choose your option from below"
+            android:textColor="@color/RED"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/textview3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD\nLITERATURE"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_00" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD HISTORY"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_01" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD SOCIETY"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_02" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="WORLD CURRENCY"
+            android:textColor="@color/VIOLET"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="WORLD\nPERSONALITY"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_04" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD TOURISM"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_05" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD \nFILM AND MUSIC"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_06" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD POLITICS"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_07" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="WORLD \nGEOGRAPHY"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_08" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27773199846",
+    "firebase_url": "https://brainfighter-51aba.firebaseio.com",
+    "project_id": "brainfighter-51aba",
+    "storage_bucket": "brainfighter-51aba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27773199846:android:7ceeb8a25c03043b",
+        "android_client_info": {
+          "package_name": "com.example.soumya.brainfighter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27773199846-lqrtbg5jhtp30iio506i771oghup64ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soumya.brainfighter",
+            "certificate_hash": "6c53c2de6937ab3c5fd2dac067cee71a0fed1a95"
+          }
+        },
+        {
+          "client_id": "27773199846-fc6m42bd8se3mh50e47npcdek6e7i4jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb3aGUsauqQnuaEEKAKK6A2gzcw1q-Q8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27773199846-fc6m42bd8se3mh50e47npcdek6e7i4jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Choose your option from below:"
+            android:textColor="@color/RED"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/textview3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FOR TECHNICAL QUIZ"
+            android:layout_weight="1"
+            android:textColor="@color/RED"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/textview4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FOR\nINDIA\nQUIZ"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="@color/RED"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/textview5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FOR\nWORLD\nQUIZ"
+            android:layout_weight="1"
+            android:textColor="@color/RED"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/textview6"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="CLICK HERE"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_00" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="CLICK HERE"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_01" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="CLICK HERE"
+            android:textStyle="bold"
+            android:textColor="@color/VIOLET"
+            android:id="@+id/button_02" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+</LinearLayout>
